@@ -1,5 +1,7 @@
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 
+/* GENERAL */
+
 @font-face{
     font-family: 'Mansalva';
 }
@@ -17,6 +19,9 @@ h1{
     color:lightgreen;
     font-family: 'Mansalva';
 }
+
+/* CHOISE PAGE */
+
 .choice{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -41,8 +46,50 @@ h1{
     transition: ease 0.3s;
 }
 
+/* PANEL'S PAGES */
+
+.panels{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100%;
+}
+.panel--languages{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.html--icon,.html--icon:hover{
+    color:#f16529;
+}
+.css--icon, .css--icon:hover{
+    color:#264de4;
+}
+.php--icon,.php--icon:hover{
+    color:#474A8A;
+}
+.js--icon,.js--icon:hover{
+    color:#f0db4f;
+}
+.panel--languages--icon{
+    font-size: 8em;
+}
+.check--logo{
+    margin-left: -15px;
+    font-size: 2em;
+    color:lightgreen;
+    display:none;
+}
+
+
 @media (min-width:992px){
     .choice--link{
         width: 50%;
+    }
+    .panels{
+        flex-direction: row;
+        justify-content: space-around;
+        position: absolute;
+        top:40%;
     }
 }

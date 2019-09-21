@@ -1,19 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <script src="function.js"></script>
-    <title>Wild Test</title>
-</head>
+<?php include "header.php" ?>
 <body>
     <h1 class="index--title">Wild Test</h1> 
-    <section class="choice">
-        <a class="choice--link" href="jschoice.php">Choisir la spécialité : HTML, CSS, JS</a>
-        <a class="choice--link" href="phpchoice.php">Choisir la spécialité : HTML, CSS, PHP</a>
+    <section class="panels">
+        <div class="panel--languages">
+            <a class="html--icon" href="html.php">
+                <i class="fab fa-html5 panel--languages--icon"></i>
+            </a>
+            <i class="fas fa-check-circle check--logo"></i>
+        </div>
+        <div class="panel--languages">
+            <a class="css--icon" href="css.php">
+                <i class="fab fa-css3-alt panel--languages--icon"></i>
+            </a>
+            <i class="fas fa-check-circle check--logo"></i>
+        </div>
+        <div class="panel--languages">
+            <a class="php--icon" href="php.php">
+                <i class="fab fa-php panel--languages--icon"></i>
+            </a>
+            <i class="fas fa-check-circle check--logo"></i>
+        </div>
     </section>
 </body>
 </html>
