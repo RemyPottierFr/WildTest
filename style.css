@@ -81,6 +81,31 @@ h1{
     display:none;
 }
 
+/* QUESTIONS */
+
+#questions{
+    margin-top: 50px;
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form--label{
+    font-size: 1.5em;
+    color:#293133;
+    background-color: rgba(51, 51, 51,0.2);
+    padding: 10px;
+}
+.form--select{
+    padding: 10px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px solid lightgreen;
+    font-size: 1.2em;
+    margin:25px;
+}
 
 @media (min-width:992px){
     .choice--link{

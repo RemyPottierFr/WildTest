@@ -1,4 +1,4 @@
-<?php include "header.php" ?>
+<?php session_start(); include "header.php"; ?>
 <body>
     <h1 class="index--title">Wild Test</h1> 
     <section class="panels">
