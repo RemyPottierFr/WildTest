@@ -27,5 +27,6 @@
             echo '<div class="link--results"><a href="results.php" class="link--results--a">Voir les résultats</a></div>';
         }
     ?>
+    <div class="github"><a href="https://github.com/RemyPottierFr/WildTest"><i class="fab fa-github"></i></a></div>
 </body>
 </html>

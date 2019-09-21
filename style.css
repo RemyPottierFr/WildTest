@@ -184,6 +184,15 @@ h1{
     font-weight: 700;
 }
 
+.github{
+    position: absolute;
+    right: 25px;
+    bottom: -75px;
+    font-size: 5em;
+}
+.github a {
+    color:#211F1F;
+}
 @media (min-width:992px){
     .choice--link{
         width: 50%;
