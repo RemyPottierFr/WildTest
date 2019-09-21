@@ -79,6 +79,17 @@ h1{
     color:lightgreen;
     display:none;
 }
+.button--form{
+    background-color: transparent;
+    padding: 15px;
+    border:solid 2px lightgreen;
+    margin: 50px;
+    color:#293133;
+    font-size: 1.5em;
+}
+.button--form i {
+    margin-left: 10px;
+}
 
 /* QUESTIONS */
 
@@ -104,6 +115,29 @@ h1{
     border-bottom: 2px solid lightgreen;
     font-size: 1.2em;
     margin:25px;
+}
+
+/* RESULTATS */
+
+.link--results{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.link--results--a{
+    margin: auto;
+    color:lightgreen;
+    font-size: 2em;
+    padding: 25px;
+    background-color: #293133;
+    width: 80%;
+    transition: ease 0.3s;
+}
+.link--results--a:hover{
+    color:lightgreen;
+    border:solid 5px lightgreen;
+    padding:20px;
+    transition: ease 0.3s;
 }
 
 @media (min-width:992px){

@@ -77,7 +77,7 @@
                 <option value="10">En appuyant sur le button envoyer</option>
                 <option value="5">En mangeant une chips</option>
             </select>
-            <button onclick="formsubmit()">Terminer le test HTML</button>
+            <button onclick="formsubmit()" class="button--form">Terminer le test HTML<i class="fas fa-location-arrow"></i></button>
         </div>
     </section>
 </body>

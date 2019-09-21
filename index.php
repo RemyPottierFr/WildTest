@@ -13,7 +13,7 @@
     if (isset($_GET['php'])){
         $_SESSION['php'] = $_GET['php'];
     }
-    echo $_SESSION['html'],$_SESSION['css'],$_SESSION['js'],$_SESSION['php'];
+    // echo $_SESSION['html'],$_SESSION['css'],$_SESSION['js'],$_SESSION['php'];
 ?>
 
 <body>
@@ -22,5 +22,10 @@
         <a class="choice--link" href="jschoice.php">Choisir la spécialité : HTML, CSS, JS</a>
         <a class="choice--link" href="phpchoice.php">Choisir la spécialité : HTML, CSS, PHP</a>
     </section>
+    <?php 
+        if (isset($_SESSION['html']) and isset($_SESSION['css']) and isset($_SESSION['js']) or isset($_SESSION['html']) and isset($_SESSION['css']) and isset($_SESSION['php'])){
+            echo '<div class="link--results"><a href="results.php" class="link--results--a">Voir les résultats</a></div>';
+        }
+    ?>
 </body>
 </html>
