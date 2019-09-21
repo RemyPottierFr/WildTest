@@ -2,7 +2,7 @@
 
 ## L'objectif :
 
-* Avoir un résultat a peu près fiable de nos connaissances à travers de diverses questions
+* Avoir un résultat à peu près fiable de nos connaissances à travers de diverses questions
 * Avoir de beaux graphiques pour se situer dans notre progression 
 * Avoir de nouveaux objectifs à atteindre
 * Avoir les cuisses roses
