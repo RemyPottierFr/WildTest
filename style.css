@@ -139,6 +139,50 @@ h1{
     padding:20px;
     transition: ease 0.3s;
 }
+.results{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.results--part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.result--part--graph{
+    height: 400px;
+    width: 150px;
+    /* background-color: gray; */
+    margin-bottom: 25px;
+    margin-top: 25px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.results--column{
+    background-color: blue;
+    width: 100%;
+    min-height: 10px;
+}
+.html--col{
+    background-color:#f16529;
+}
+.css--col{
+    background-color: #264de4;
+}
+.php--col{
+    background-color: #474A8A;
+}
+.js--col{
+    background-color: #f0db4f;
+}
+.pourcentage{
+    font-size: 2em;
+    columns: #293133;
+    font-weight: 700;
+}
 
 @media (min-width:992px){
     .choice--link{

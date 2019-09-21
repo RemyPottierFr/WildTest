@@ -23,7 +23,7 @@
         <a class="choice--link" href="phpchoice.php">Choisir la spécialité : HTML, CSS, PHP</a>
     </section>
     <?php 
-        if (isset($_SESSION['html']) and isset($_SESSION['css']) and isset($_SESSION['js']) or isset($_SESSION['html']) and isset($_SESSION['css']) and isset($_SESSION['php'])){
+        if ((isset($_SESSION['html']) and isset($_SESSION['css']) and isset($_SESSION['js'])) or (isset($_SESSION['html']) and isset($_SESSION['css']) and isset($_SESSION['php']))){
             echo '<div class="link--results"><a href="results.php" class="link--results--a">Voir les résultats</a></div>';
         }
     ?>
