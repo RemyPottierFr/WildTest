@@ -7,5 +7,9 @@ var output = document.getElementById('questions');
                 o += parseInt(inputs[i].value);
             }
             console.log(o);
+            var url = window.location.pathname;
+            var filename = url.substring(url.lastIndexOf('/')+1);
+            filename = filename.slice(0,-4);
+            document.location.href="index.php?"+filename+"="+o;
             return false;
         }
