@@ -31,18 +31,19 @@
     var css = <?php echo $_SESSION['css']; ?>;
     <?php if (isset($_SESSION['js'])){?>
         var js = <?php echo $_SESSION['js']; ?>;
+        document.querySelector('.js--pourcentage').innerHTML = js + " %";
+        document.querySelector('.js--col').style.height=js*2+"px";
     <?php } ?>
     <?php if (isset($_SESSION['php'])){?>
         var php = <?php echo $_SESSION['php']; ?>;
+        document.querySelector('.php--col').style.height=php*2+"px";
+        document.querySelector('.php--pourcentage').innerHTML = php + " %";
     <?php } ?>
+    
     document.querySelector('.html--col').style.height=html*2+"px";
     document.querySelector('.css--col').style.height=css*2+"px";
-    document.querySelector('.js--col').style.height=js*2+"px";
-    document.querySelector('.php--col').style.height=php*2+"px";
 
     document.querySelector('.html--pourcentage').innerHTML = html + " %";
     document.querySelector('.css--pourcentage').innerHTML = css + " %";
-    document.querySelector('.js--pourcentage').innerHTML = js + " %";
-    document.querySelector('.php--pourcentage').innerHTML = php + " %";
 </script>
 </body>

@@ -26,7 +26,7 @@ if(isset($_SESSION['js'])){
             <a class="css--icon" href="css.php">
                 <i class="fab fa-css3-alt panel--languages--icon"></i>
             </a>
-            <i class="fas fa-check-circle check--logo check--css"></i>
+            <i class="fas fa-check-circle check--logo check--logo--css"></i>
         </div>
         <div class="panel--languages">
             <a class="js--icon" href="js.php">
