@@ -13,7 +13,6 @@
     if (isset($_GET['php'])){
         $_SESSION['php'] = $_GET['php'];
     }
-    // echo $_SESSION['html'],$_SESSION['css'],$_SESSION['js'],$_SESSION['php'];
 ?>
 
 <body>
