@@ -13,8 +13,9 @@ if(isset($_SESSION['js'])){
 }
 
 ?>
+
 <body>
-    <h1 class="index--title">Wild Test</h1> 
+    <h1 class="index--title">Wild Test</h1>
     <section class="panels">
         <div class="panel--languages">
             <a class="html--icon" href="html.php">
@@ -36,4 +37,5 @@ if(isset($_SESSION['js'])){
         </div>
     </section>
 </body>
+
 </html>

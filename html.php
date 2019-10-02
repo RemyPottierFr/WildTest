@@ -1,7 +1,7 @@
 <?php session_start(); include "header.php"; ?>
 
 <body>
-    <h1 class="index--title">Wild Test</h1> 
+    <h1 class="index--title">Wild Test</h1>
     <section id="questions">
         <div class="form">
             <label for="select" class="form--label">Que signifie HTML ?</label>
@@ -53,7 +53,8 @@
                 <option value="10">pre</option>
                 <option value="10">ruby</option>
             </select>
-            <label for="select" class="form--label">Comment se nomme la balise que vous utiliser<br>pour répondre ?</label>
+            <label for="select" class="form--label">Comment se nomme la balise que vous utiliser<br>pour répondre
+                ?</label>
             <select name="select" class="form--select">
                 <option value="0" disabled>Séléctionner un réponse ------</option>
                 <option value="-5">Reponse</option>

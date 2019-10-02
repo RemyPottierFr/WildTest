@@ -1,15 +1,12 @@
-var output = document.getElementById('questions');
-        var formsubmit = function(e){
-            var inputs = document.getElementsByClassName('form--select');
-            var o = 0;
-            var taille = inputs.length;
-            for(var i = 0; i < taille; i++){
-                o += parseInt(inputs[i].value);
-            }
-            console.log(o);
-            var url = window.location.pathname;
-            var filename = url.substring(url.lastIndexOf('/')+1);
-            filename = filename.slice(0,-4);
-            document.location.href="index.php?"+filename+"="+o;
-            return false;
-        }
+const output = document.getElementById('questions');
+const formsubmit = e => {
+    let inputs = document.getElementsByClassName('form--select');
+    let o = 0;
+    for (let i = 0; i < inputs.length; i++) {
+        o += parseInt(inputs[i].value);
+    }
+    const url = window.location.pathname;
+    const filename = url.substring(url.lastIndexOf('/') + 1);
+    filename = filename.slice(0, -4);
+    document.location.href = "index.php?" + filename + "=" + o;
+}

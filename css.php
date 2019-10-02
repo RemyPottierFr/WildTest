@@ -1,7 +1,7 @@
 <?php session_start(); include "header.php"; ?>
 
 <body>
-    <h1 class="index--title">Wild Test</h1> 
+    <h1 class="index--title">Wild Test</h1>
     <section id="questions">
         <div class="form">
             <label for="select" class="form--label">Que signifie CSS ?</label>
@@ -79,7 +79,8 @@
                 <option value="10">form--select</option>
                 <option value="5">C'est pas mon code, donc je sais pas !</option>
             </select>
-            <button onclick="formsubmit()" class="button--form">Terminer le test HTML<i class="fas fa-location-arrow"></i></button>
+            <button onclick="formsubmit()" class="button--form">Terminer le test HTML<i
+                    class="fas fa-location-arrow"></i></button>
         </div>
     </section>
 </body>

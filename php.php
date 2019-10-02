@@ -1,7 +1,7 @@
 <?php session_start(); include "header.php"; ?>
 
 <body>
-    <h1 class="index--title">Wild Test</h1> 
+    <h1 class="index--title">Wild Test</h1>
     <section id="questions">
         <div class="form">
             <label for="select" class="form--label">Que signifie PHP ?</label>
@@ -67,8 +67,12 @@
             <label for="select" class="form--label">Quelle balise sont correctes ?</label>
             <select name="select" class="form--select">
                 <option value="0" disabled>Séléctionner un réponse ------</option>
-                <option value="10">< ?php ... ?></option>
-                <option value="10">< ?= ... ?></option>
+                <option value="10">
+                    < ?php ... ?>
+                </option>
+                <option value="10">
+                    < ?=... ?>
+                </option>
                 <option value="5">Sûrement pas celle qui sotn sonores</option>
             </select>
             <label for="select" class="form--label">Quelle déclaration de variable est bonne ?</label>
@@ -78,7 +82,8 @@
                 <option value="10">$variable</option>
                 <option value="5">class variable</option>
             </select>
-            <button onclick="formsubmit()" class="button--form">Terminer le test HTML<i class="fas fa-location-arrow"></i></button>
+            <button onclick="formsubmit()" class="button--form">Terminer le test HTML<i
+                    class="fas fa-location-arrow"></i></button>
         </div>
     </section>
 </body>
