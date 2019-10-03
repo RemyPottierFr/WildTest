@@ -40,5 +40,5 @@ function createSubInput(subDiv){
 }
 
 function sendInputs() {
-    
+    const 
 }
