@@ -38,3 +38,7 @@ function createSubInput(subDiv){
         subDiv.append(subInput)
     }
 }
+
+function sendInputs() {
+    
+}
