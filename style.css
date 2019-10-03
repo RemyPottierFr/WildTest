@@ -251,7 +251,17 @@ h1 {
     padding: 10px;
     margin: 10px;
 }
-
+.button--add, .button--send{
+    background-color: #293133;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.2em;
+    color:lightgreen;
+    border:none;
+    margin: 25px;
+}
 @media (min-width:992px) {
     .choice--link {
         width: 50%;
