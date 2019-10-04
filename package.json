@@ -1,0 +1,20 @@
+{
+  "name": "wildtest",
+  "version": "2.0.0",
+  "description": "WildTest",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RemyPottierFr/WildTest.git"
+  },
+  "author": "Rémy Pottier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RemyPottierFr/WildTest/issues"
+  },
+  "homepage": "https://github.com/RemyPottierFr/WildTest#readme",
+  "dependencies": {}
+}
