@@ -23,34 +23,6 @@
 
 
     <script src="app.js"></script>
-    <script>
-        function sendInputs() {
-            const queryPrimaryDiv = document.querySelectorAll('.primaryDiv')
-            const arrayQueryPrimaryDiv = Array.from(queryPrimaryDiv)
-            let datas = {}
-            let result = arrayQueryPrimaryDiv.map(x => {
-                let inputsValues = {}
-                inputsValues.element = x
-                let inputQuestion = x.querySelector('.input--proposition');
-                inputsValues.inputQuestionValue = inputQuestion.value;
-                inputsValues.arrayInputOptions = Array.from(x.querySelectorAll('.subInput'));
-                inputsValues.inputOptions = inputsValues.arrayInputOptions.map(y => {
-                    let valueInput = y.value;
-                    return valueInput
-                });
-                inputsValues.arrayOptionValue = Array.from(x.querySelectorAll('.valueInput'));
-                inputsValues.optionValue = inputsValues.arrayOptionValue.map(y => {
-                    let valueInput = y.value;
-                    return valueInput
-                });
-                return inputsValues
-            });
-            console.log(result)
-            return result;
-        }
-    </script>
-    <?php $_SESSION['datas'] = `<script> result </script>` ?>
-    <?php echo $_SESSION['datas']; ?>
 </body>
 
 </html>
