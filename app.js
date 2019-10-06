@@ -50,7 +50,6 @@ function createSubInput(subDiv) {
 function sendInputs() {
     const queryPrimaryDiv = document.querySelectorAll('.primaryDiv')
     const arrayQueryPrimaryDiv = Array.from(queryPrimaryDiv)
-    let datas = {}
     let result = arrayQueryPrimaryDiv.map(x => {
         let inputsValues = {}
         inputsValues.element = x
@@ -69,5 +68,5 @@ function sendInputs() {
         return inputsValues
     });
     console.log(result)
-    return result;
+    return result
 }
