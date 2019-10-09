@@ -67,4 +67,5 @@ function sendInputs() {
         });
         return inputsValues
     });
+    console.log(result)
 }
